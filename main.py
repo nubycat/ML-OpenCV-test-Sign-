@@ -4,7 +4,7 @@ import imutils
 import easyocr
 from matplotlib import pyplot as plt
 
-img = cv2.imread("imges/cars_5.jpg")
+img = cv2.imread("imges/cars_1.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 img_filter = cv2.bilateralFilter(gray, 11, 15, 15)
